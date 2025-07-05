@@ -1,10 +1,12 @@
-    nav {
+ 
+   
+   nav {
        
       display: flex;
       justify-content: space-between;
       align-items: center;
       background-color: powderblue;     
-      padding: 1px 0px ;
+      padding: 0px 10px ;
    
     }
 
@@ -15,7 +17,7 @@
     }
 
     .nav-links a {
-      color: white;
+      color: black;
       text-decoration: none;
     
       font-size: 20px;
@@ -43,8 +45,74 @@ padding-left: 200px;
     }
 
     .type-two{
+position: relative; top: 2%;
        text-align: center;
        margin-left: 100px;
-     margin-top: 0%;
+  text-transform: uppercase;
+
        font-size: 40px;
+    }
+
+    /*hero-section*/
+
+    .hero-section{
+      background-color: ;
+      display: flex; 
+    }
+
+    .image{
+      width: 370px;
+      margin-top: 4%;
+    padding-left:250px ;
+     
+    }
+
+    .heading{
+ margin-top: 100px;
+ margin-left: 200px;
+ font-size: 50px;
+ font-style:italic;
+ 
+    }
+
+    .hero p{ font-size: 15px;
+      margin-left: 170px;
+
+    }
+
+    div.box{
+      background-color:#0a5dda;
+      width: 110px; height: 40px;
+      border-radius: 10px 10px 10px 10px;
+      padding: 4px;
+margin-left: 170px;
+margin-top: 30px;
+    
+    }
+     .box:hover{
+      background:#0a5dda ;
+      box-shadow: 0px 0px 15px #0a5dda ; 
+      
+     }
+
+     .img2{
+      margin-top: 5px;
+      width: 30px; 
+    
+     }
+
+     .box a{font-size: 20px;
+    text-decoration: none;
+     color: white;
+margin-bottom: 10px;
+     }
+
+         div.box2{
+      background-color:#0a5dda;
+      width: 300px; height: 200px;
+      border-radius: 10px 10px 10px 10px;
+      padding: 4px;
+margin-left: 170px;
+margin-top: 30px;
+    
     }
