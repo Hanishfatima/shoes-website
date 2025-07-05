@@ -1,12 +1,14 @@
  nav {
-
+width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
    background-color: #0a5dda;
-   padding: 0px 10px;
-
+   padding-top: 0%;
+   position: fixed;
+   margin-top: 0%;
  }
+
 
 
  .nav-links {
@@ -25,7 +27,7 @@
  .nav-links a:hover {
    color: #38bdf8;
  }
-         
+
  .logo-img {
    width: 55px;
    display: block;
@@ -42,22 +44,23 @@
    font-size: 25px;
  }
 
- 
+
  .type-two {
    position: relative;
    top: 35%;
    text-align: center;
-   margin-left:100px ;
+   margin-left: 100px;
    text-transform: uppercase;
-  ;
+
    font-size: 40px;
  }
 
  /*hero-section*/
 
  .hero-section {
-   background-color: CFF8FF;
+   background-color: white;
    display: flex;
+   padding-top: 100px;
  }
 
  .image {
@@ -83,8 +86,8 @@
 
  div.box {
    background-color: #0a5dda;
-   width: 110px;
-   height: 40px;
+   width: 100px;
+   height: 35px;
    border-radius: 10px 10px 10px 10px;
    padding: 4px;
    margin-left: 170px;
@@ -101,7 +104,7 @@
  .img2 {
    margin-top: 5px;
    width: 25px;
-   height:20px ;
+   height: 20px;
 
  }
 
@@ -110,39 +113,153 @@
    text-decoration: none;
    color: white;
    margin-top: 0%;
- }
-
- div.box2 {
-   background-color: #0a5dda;
-   width: 300px;
-   height: 200px;
-   border-radius: 10px 10px 10px 10px;
-   padding: 4px;
-   margin-left: 170px;
-   margin-top: 30px;
 
  }
 
- .hero-section2-imgs{
 
-  display: flex;
+ /*hero-section2*/
+
+ .hero-section2-imgs {
+   display: flex;
+   margin-top: 100px;
+   
  
-  
+ }
+
+ .first-img {
+   width: 100%;
+   height: 400px;
+   border: white;
+ 
+   border-radius: 10px;
+ }
+
+ .second-img {
+   width: 100%;
+   height: 400px;
+
+   border-radius: 10px;
+ }
+
+ .third-img {
+   width: 100%;
+   height: 400px;
+   border-radius: 10px;
+ }
+
+ .heading2 {
+   font-size: 25px;
 
  }
 
- .first-img{
-  width: 400px;
-  height: 500px;
-  
+ .paragraph {
+   font-size: 15px;
+   color: navy;
+   
  }
 
-  .second-img{
-  width: 400px;
-  height: 500px;
+ .heading-para1{
+  background-color: white;
+
+}
+
+
+  .heading3 {
+   font-size: 25px;
+   
  }
 
-  .third-img{
-  width: 400px;
-  height: 500px;
+ 
+ .paragraph2 {
+   font-size: 15px;
+   color: navy;
+ 
  }
+
+.heading-para2{
+  background-color: white;
+}
+
+
+   .heading4 {
+   font-size: 25px;
+ }
+
+ 
+ .paragraph3 {
+   font-size: 15px;
+   color: navy;
+ }
+
+ .heading-para3{
+  background-color: white;
+}
+
+
+/*boxes*/
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+div.box2{
+  background-color: #0a5dda;
+  width:350px;
+  height: 500px ;
+  background-color: white;
+  border: 15px rebeccapurple solid;
+
+}
+
+
+
+.inner-box{
+width: 350px;
+height: 400px;
+background-color: rgb(41, 106, 163);
+border: white;
+
+}
+
+/*box3*/
+
+div.box3{
+  background-color: #0a5dda;
+  width:350px;
+  height: 500px ;
+  background-color: white;
+  border: 15px rebeccapurple solid;
+margin-left: 10px;
+
+}
+
+.inner-box3{
+width: 350px;
+height: 400px;
+background-color: rgb(41, 106, 163);
+border: white;
+
+}
+
+
+/*box4*/
+
+div.box4{
+  background-color: #0a5dda;
+  width: 350px;
+  height: 500px ;
+  background-color: white;
+  border: 15px rebeccapurple solid;
+margin-top: 100px;
+
+}
+
+.inner-box4{
+width: 350px;
+height: 400px;
+background-color: rgb(41, 106, 163);
+border: white;
+
+}
