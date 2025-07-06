@@ -267,30 +267,113 @@ border: white;
 border-radius: 20px;
 }
 
+.video-section
+{
+  display: flex;
+  
+}
+
 /*box5*/
 
 div.box5{
-  background-color: #0a5dda;
+  background-color: BLUE;
   width: 350px;
   height: 500px ;
-  background-color: white;
+
   border: 15px white solid;
 margin-top: 100px;
-
+margin-left: 80px;
 
 }
 
 .inner-box5{
 width: 350px;
 height: 400px;
-background-color:#0a5dda ;
+background-color : silver;
 border: white;
 border-radius: 20px;
+margin-top: 0%;
+
+
 }
 
 
 .video1{
   width:350px;
   height: 400px ;
+
+}
+
+.head{
+  text-transform: uppercase;
+padding-left: 3%;
+}
+
+.box-para{
+  font-size: 15px;
+  padding-left: 3%;
+}
+/*box6*/
+
+div.box6{
+  background-color: BLUE;
+  width: 350px;
+  height: 500px ;
+
+  border: 15px white solid;
+margin-top: 100px;
+margin-left: 10px;
+
+}
+
+.inner-box6{
+width: 350px;
+height: 400px;
+background-color :red;
+
+border-radius: 20px;
+margin-top: 0%;
+
+}
+
+
+.video2{
+  width:350px;
+  height: 400px ;
+  
+
+
+}
+
+
+/*box7*/
+
+div.box7{
+  background-color: BLUE;
+  width: 350px;
+  height: 500px ;
+margin-left: 10px;
+  border: 15px white solid;
+margin-top: 100px;
+
+  border: 15px white solid;
+
+}
+
+.inner-box7{
+width: 350px;
+height: 400px;
+background-color :red;
+
+border-radius: 20px;
+margin-top: 0%;
+
+}
+
+
+.video3{
+  width:350px;
+  height: 400px ;
+
 
 }
