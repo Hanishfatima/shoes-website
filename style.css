@@ -58,9 +58,10 @@ width: 100%;
  /*hero-section*/
 
  .hero-section {
-   background-color: white;
+   background-color: rgb(210, 235, 245);
    display: flex;
    padding-top: 100px;
+   margin-bottom: ;
  }
 
  .image {
@@ -92,7 +93,7 @@ width: 100%;
    padding: 4px;
    margin-left: 170px;
    margin-top: 30px;
-
+margin-bottom: 20px;
  }
 
  .box:hover {
@@ -202,6 +203,7 @@ width: 100%;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+
 }
 
 div.box2{
@@ -209,8 +211,8 @@ div.box2{
   width:350px;
   height: 500px ;
   background-color: white;
-  border: 15px rebeccapurple solid;
-
+  border: 15px white solid;
+  /*box-shadow: 7px 7px 15px burlywood;*/
 }
 
 
@@ -220,7 +222,7 @@ width: 350px;
 height: 400px;
 background-color: rgb(41, 106, 163);
 border: white;
-
+border-radius: 20px;
 }
 
 /*box3*/
@@ -230,7 +232,7 @@ div.box3{
   width:350px;
   height: 500px ;
   background-color: white;
-  border: 15px rebeccapurple solid;
+  border: 15px white solid;
 margin-left: 10px;
 
 }
@@ -240,7 +242,7 @@ width: 350px;
 height: 400px;
 background-color: rgb(41, 106, 163);
 border: white;
-
+border-radius: 20px;
 }
 
 
@@ -251,8 +253,9 @@ div.box4{
   width: 350px;
   height: 500px ;
   background-color: white;
-  border: 15px rebeccapurple solid;
+  border: 15px white solid;
 margin-top: 100px;
+
 
 }
 
@@ -261,5 +264,33 @@ width: 350px;
 height: 400px;
 background-color: rgb(41, 106, 163);
 border: white;
+border-radius: 20px;
+}
+
+/*box5*/
+
+div.box5{
+  background-color: #0a5dda;
+  width: 350px;
+  height: 500px ;
+  background-color: white;
+  border: 15px white solid;
+margin-top: 100px;
+
+
+}
+
+.inner-box5{
+width: 350px;
+height: 400px;
+background-color:#0a5dda ;
+border: white;
+border-radius: 20px;
+}
+
+
+.video1{
+  width:350px;
+  height: 400px ;
 
 }
