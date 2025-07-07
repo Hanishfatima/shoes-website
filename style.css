@@ -641,11 +641,30 @@ display: flex;
  }
 
  .second-last{
-  width: 80%;
-  height: 300px; 
+  width: 90%;
+  height: 250px; 
   background-color: #6c757d;
+  text-align: center;
    position: relative;
-   left: 10%;
-   right: 10%;
+   left: 5%;
    margin-top: 7%;
  }
+
+  .second-last h1 {
+    text-align: center ;
+    font-style: italic;
+    text-transform: uppercase;
+   padding-top: 40px ;
+  }
+
+  .enter{
+    width: 80%;
+   height:40px ; 
+   margin-top: 4%;
+  border-color: gainsboro;
+  }
+
+  .enter:hover{
+     box-shadow: 0px 0px 5px #0dcaf0;
+     border-color: #0dcaf0;
+  }
