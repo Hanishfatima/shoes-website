@@ -4,11 +4,11 @@ height: 55px;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #0a5dda;
+   background-color:grey;
    padding-top: 0%;
    position: fixed;
    margin-top: 0%;
-   box-shadow: 0px 0px 15px blue;
+   box-shadow: 0px 0px 15px grey;
  }
 
 
@@ -31,9 +31,10 @@ height: 55px;
  }
 
  .logo-img {
-   width: 55px;
+   width: 50px;
    display: block;
    padding-left: 200px;
+  margin-top: 4%;
    
  }
 
@@ -44,7 +45,9 @@ height: 55px;
 
  .font h1 {
    font-family: 'ManufacturingConsent-Regular';
-   font-size: 25px;
+   font-size: 25px; 
+   color:black;
+  
  }
 
 
@@ -61,17 +64,18 @@ height: 55px;
  /*hero-section*/
 
  .hero-section {
-   background-color: rgb(210, 235, 245);
+   background-color: gainsboro;
    display: flex;
    padding-top: 100px;
-   margin-bottom: ;
+ 
  }
 
 
  .image {
    width: 400px;
    padding-left: 250px;
-;
+margin-top: 4px;
+margin-bottom:5% ;
  }
 
  .heading {
@@ -127,6 +131,7 @@ height: 55px;
  .hero-section2-imgs {
    display: flex;
    margin-top: 100px;
+   
  }
 
 
@@ -202,9 +207,9 @@ margin-top: 10%;
 
  .super-heading{
   font-size: 40px ;
-  color:  yellowgreen;
+  color:  navy;
   text-transform: uppercase;
-  margin-top: 7%;
+  margin-top: 6%;
   margin-left: 8%;
   margin-bottom: -7%;
 }
@@ -302,10 +307,10 @@ box-shadow: 0px 0px 15px #6c757d;
 
 .super-heading2{
   font-size: 30px ;
-  color:  yellowgreen;
+  color:  navy;
   text-transform: uppercase;
-  margin-top: 20%;
-  margin-left: 9%;
+  margin-top: 6%;
+  margin-left: 6%;
 margin-bottom: -9%;
 
 }
@@ -365,7 +370,7 @@ border-radius: 20px;
 .inner-box6{
 width: 350px;
 height: 400px;
-background-color :white;
+background-color :#6c757d;
 box-shadow: 0px 0px 15px #6c757d;
 border-radius: 20px;
 margin-top: 0%;
@@ -483,7 +488,7 @@ margin-top: 5px;
  width: 100%;
  height: 590px;
  display: flex;
-
+margin-bottom: -4%;
 }
 
 .MID-PART{
@@ -590,7 +595,7 @@ figcaption{
    left: 40%;
    display: flex;
  text-align: center;
-   margin-top: 7% ;
+   margin-top: 5% ;
    font-size: 20px;
 
  }
@@ -604,67 +609,143 @@ figcaption{
    box-shadow: 0px 0px 15px red;
  }
 
+ .imp{
+
+  background-color: black;
+  width: 100%;
+  height: 450px ;
+  margin-top: 0%;
+ }
  .ending-sec{
   text-align: center;
-  margin-top: 12%;
+
 display: flex;
+justify-content: center;
+padding-top: 80px;
+margin-bottom: 0%;
+gap: -7%;
+background-color: black;
+
  }
+
+
  .formal-shoe1{
-  width: 53%;
+  width: 70%;
 
 
  }
 
  .formal-shoe2{
-  width: 60%;
+ width: 80%;
+
 
  }
 
   .formal-shoe3{
-  width: 60%;
+  width: 80%;
+
 
  }
 
   .formal-shoe4{
-  width: 63%;
+  width: 85%;
 
  }
 
   .formal-shoe5{
-  width: 45%;
-
+  width: 60%;
+margin-right: 10%;
 
  }
   .formal-shoe6{
-  width: 60%;
-
+  width: 80%;
+margin-right: 40%;
  }
 
- .second-last{
-  width: 90%;
-  height: 250px; 
-  background-color: #6c757d;
+ .imp h1{
+  font-size: 40px;
+  color: burlywood;
+  font-family: 'ManufacturingConsent-Regular';
   text-align: center;
-   position: relative;
-   left: 5%;
-   margin-top: 7%;
+  margin-top: 1%;
+ }
+ .second-last{
+
+
+    background: gray;
+  width: 90%;
+  height: 300px;
+  position: relative;
+  left:  5%;
+  text-align: center;
+  color: white;
+  margin-top: 4%;
  }
 
   .second-last h1 {
     text-align: center ;
     font-style: italic;
+margin-top: ;
     text-transform: uppercase;
    padding-top: 40px ;
   }
 
-  .enter{
-    width: 80%;
-   height:40px ; 
-   margin-top: 4%;
-  border-color: gainsboro;
+   .second-last form{
+    display: flex; 
+    
+justify-content: center; 
+margin-top: 7%;
   }
 
-  .enter:hover{
-     box-shadow: 0px 0px 5px #0dcaf0;
-     border-color: #0dcaf0;
-  }
+.subscribe-button input{
+  padding: 12px;
+font-size: 16px;
+border: none;
+border-radius: 4px;
+width: 70%;
+max-width: 100%;
+border-color: #38bdf8;
+
+}
+
+
+.subscribe-button input:hover{
+  box-shadow: 0px 0px 12px skyblue;
+}
+
+.subscribe-button button{
+  padding: 12px;
+  font-size: 15px;
+  background-color: #0a5dda;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.subscribe-button button:hover{
+  background-color: green;
+}
+
+.ending{
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+gap: 60px;
+line-height: 25px;
+background-color:rgb(210, 223, 186);
+}
+
+.ending h1{
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.footer-copy {
+  font-size: 14px;
+  text-align: center;
+  color: red;
+  padding: 20px;
+  background-color: rgb(210, 223, 186);
+}
