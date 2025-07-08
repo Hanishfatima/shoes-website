@@ -310,7 +310,7 @@ box-shadow: 0px 0px 15px #6c757d;
   color:  navy;
   text-transform: uppercase;
   margin-top: 6%;
-  margin-left: 6%;
+  margin-left:  30px;
 margin-bottom: -9%;
 
 }
@@ -322,7 +322,7 @@ div.box5{
 box-shadow: 0px 0px 15px #6c757d;
 border: 15px white solid;
 border-radius: 20px;
-margin-left: 80px;
+margin-left:  30px;
 
 }
 
@@ -362,7 +362,7 @@ div.box6{
 box-shadow: 0px 0px 15px #6c757d;
   border: 15px white solid;
   box-shadow: 0px 0px 15px #6c757d;
-margin-left: 10px;
+margin-left:  30px;
 border-radius: 20px;
 
 }
@@ -403,7 +403,7 @@ div.box7{
   background-color: white;
   width: 350px;
   height: 650px ;
-margin-left:  30px;
+margin-left:  10px;
   border: 15px white solid;
 box-shadow: 0px 0px 15px #6c757d;
 border-radius: 20px;
